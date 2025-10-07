@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+         <head>
+                <meta charset="UTF-8">
+                <meta name="application-name" content="user book">
+                <meta name="author" content="Abasov Elmaddin">
+                <meta name="description" content="gives you a user from a database">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="./index.css">
+        </head>
+	<title>find user</title>
+	<body>
+		<div>
+			<h1>Найди пользователя в файле /etc/passwd</h1>
+    			<h2>Введи имя пользователя</h2>
+		</div>
+    		<form action="/submit-form" method="POST">
+        	<label for="name">Имя:</label><br>
+        	<input type="text" id="name" name="name"><br><br>
+        	<input type="submit" value="Submit">
+    		</form>
+	</body>
+</html>
